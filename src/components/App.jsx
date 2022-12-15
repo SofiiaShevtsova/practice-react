@@ -1,3 +1,5 @@
+import ListOfAlbumsn from "./ListOfAlbums/ListOfAlbums";
+
 export const App = () => {
   return (
     <div
@@ -9,7 +11,7 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      'Hello'
+      <ListOfAlbumsn/>
     </div>
   );
 };
