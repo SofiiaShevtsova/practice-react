@@ -9,7 +9,7 @@ const Education = props => {
                 from 2007 to 2011 <span className="ukr">|</span>Ukraine
             </p>
             <p className="zakl2">
-              Academy GO IT<p className="spc">Full Stack Developer</p>              </p>
+              Academy GO IT              </p><p className="spc">Full Stack Developer</p>
 
               <p className="time">
                 from 2022 <span className="ukr">|</span>Ukraine

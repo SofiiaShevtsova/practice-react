@@ -5,8 +5,7 @@ import SoftSkills from "./SoftSkills";
 const SiteBar = props => {
     return (
         <div>
-          <img src="../../images/user.jpg" alt="user photo" className="olecia" />
-          <Contacts/>
+         <img src="./images/user.jpg" alt="user" className="olecia" />          <Contacts/>
          <TechSkills/>
          <SoftSkills/>
         </div>
