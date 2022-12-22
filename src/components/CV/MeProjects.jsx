@@ -1,7 +1,7 @@
 const MeProject = props => {
     return (
                   <div className="second">
-            <h3 className="spravy">Мої проекти</h3>
+            <h3 className="spravy">My projects</h3>
             <ol className="sps-nom">
               <li className="sps-spr">
                 <span className="sps-spr1">
@@ -18,21 +18,21 @@ const MeProject = props => {
               </li>
               <li className="sps-spr">
                 <span className="sps-spr1">
-                  <a href="https://cryptohub.goit.global/" className="sps-spr2">
-                    https://cryptohub.goit.global/
+                  <a href="sofiiashevtsova.github.io/goit-js-hw-11/" className="sps-spr2">
+                    sofiiashevtsova.github.io/goit-js-hw-11/
                   </a>
                   ...............
-                  <span className="sps-spr3">[</span> HTML5, CSS3{' '}
+                  <span className="sps-spr3">[</span> HTML5, CSS3, JS{' '}
                   <span className="sps-spr3">]</span>
                 </span>
               </li>
               <li className="sps-spr">
                 <span className="sps-spr1">
-                  <a href="https://kidslike.goit.global/" className="sps-spr2">
-                    https://kidslike.goit.global/
+                  <a href="sofiiashevtsova.github.io/my-project-js/" className="sps-spr2">
+                    sofiiashevtsova.github.io/my-project-js/
                   </a>
                   ......................
-                  <span className="sps-spr3">[</span> HTML5, CSS3{' '}
+                  <span className="sps-spr3">[</span> HTML5, CSS3, JS{' '}
                   <span className="sps-spr3">]</span>
                 </span>
               </li>

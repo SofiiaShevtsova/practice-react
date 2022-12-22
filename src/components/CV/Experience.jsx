@@ -1,46 +1,45 @@
 const Experience = props => {
     return (
                   <div className="three">
-            <h3 className="spravy"> Досвід роботи </h3>
+            <h3 className="spravy"> Experience </h3>
             <div>
               <h4 className="pos">
-                Менеджер <span className="compani">Strike plan grup</span>{' '}
+                Inspector for monitoring the application of administrative practice <span className="compani">National Police of Ukraine</span>{' '}
               </h4>
               <p className="time">
-                з 2022 до 2023 <span className="ukr">|</span>Україна
+                from 2011 to 2020 <span className="ukr">|</span>Ukraine
               </p>
               <ul className="sps-work">
-                <li className="work1">Пошук замовників</li>
-                <li className="work1">Розробка веб-дизайну</li>
-                <li className="work1">Створення сайтів</li>
+                <li className="work1">Quality control of administrative documentation</li>
+                <li className="work1">Keeping records in databases</li>
+                <li className="work1">Servicing technical devices, reading data from them and remove data</li>
+                <li className="work1">Support communication with all sectors of the police</li>
+          </ul>
+            </div>
+            <div>
+              <h4 className="pos">
+                Factory worker
+                <span className="compani">Seconix</span>
+              </h4>
+              <p className="time">
+                from 2020 to 2022 <span className="ukr">|</span>Poland
+              </p>
+              <ul className="sps-work">
+                <li className="work1">Checking boards for optical devices on a test machine</li>
+                <li className="work1">Service of the test machine</li>
               </ul>
             </div>
             <div>
               <h4 className="pos">
-                Вчитель інформатики
-                <span className="compani">Завіруховська ЗОШ№1</span>
+                Front-End Developer <span className="compani">Freelance</span>{' '}
               </h4>
               <p className="time">
-                З 2020 до 2022 <span className="ukr">|</span>Україна
+                from 2022 <span className="ukr">|</span>Poland
               </p>
               <ul className="sps-work">
-                <li className="work1">Ведення журналів</li>
-                <li className="work1">Створення програм навчання для учнів</li>
-                <li className="work1">Створення сайтів</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="pos">
-                Front-End розробник <span className="compani">Freelance</span>{' '}
-              </h4>
-              <p className="time">
-                з 2020 до 2023 <span className="ukr">|</span>Україна
-              </p>
-              <ul className="sps-work">
-                <li className="work1">Пошук замовників</li>
-                <li className="work1">Постійний контакт з замовником</li>
-                <li className="work1">Розробка дизайну</li>
-                <li className="work1">Створення сайту</li>
+                <li className="work1">Search for customers</li>
+                <li className="work1">Constant contact with the customer</li>
+                <li className="work1">Site creation</li>
               </ul>
             </div>
           </div>

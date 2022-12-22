@@ -1,13 +1,14 @@
 const AboutMe = props => {
-    return (
-                      <p className="inform">
-                Народилася в гарному місті Костопіль, Рівненська область, 24
-                квітня 1990 року. Закінчила навчання та готова працювати з 100%
-                віддачею. Люблю створювати гарні сайти з цікавим дизайном. Маю
-                багато своїх ідей. Готова до зміни місця проживання.
-              </p>
+  return (
+    <p className="inform">
+      '"Self-development is the way to self-knowledge" I am 32 years old. I am
+      Ukrainian. I currently live in Poland, but I am ready to change my country
+      of residence if necessary. I want to become a good developer, so I study
+      hard and am interested in all the new things in the IT field. I like to
+      communicate with people. I never stop at on my way and move on.
+      '
+    </p>
+  );
+};
 
-    )
-}
-
-export default AboutMe
+export default AboutMe;
