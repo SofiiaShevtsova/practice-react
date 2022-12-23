@@ -1,16 +1,21 @@
 import Contacts from './Contacts';
 import TechSkills from './TechSkills';
 import SoftSkills from './SoftSkills';
+import Language from './Lang';
+import StyledList from './Styled';
 import avatar from '../../images/user.jpg';
+
+const { SiteBarStyle, AvatarStyle } = StyledList;
 
 const SiteBar = props => {
   return (
-    <div>
-      <img src={avatar} alt="user" className="olecia" />
-      <Contacts />
+    <SiteBarStyle>
+      <AvatarStyle src={avatar} alt="user"/>
       <TechSkills />
       <SoftSkills />
-    </div>
+      <Language />
+      <Contacts />
+    </SiteBarStyle>
   );
 };
 

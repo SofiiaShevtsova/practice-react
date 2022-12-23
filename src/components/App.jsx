@@ -6,7 +6,8 @@ export const App = () => {
       style={{
         display: 'block',
         alignItems: `center`,
-        color: '#010101',
+        backgroundColor: `bisque`,
+        color: 'black',
       }}
     >
       <Resume/>

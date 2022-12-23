@@ -1,7 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f5f7fa;
-}
+    background-color: #055017;
+
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+box-shadow: 8px 8px 24px 0px rgb(79, 212, 85);}
 
 /* left styles */
 .left {
@@ -188,9 +192,12 @@ body {
 /* photo styles */
 .photo {
     width: 370px;
-    background-color: #1e2939;
+    background-color: #05421c;
     padding-top: 40px;
     color: beige;
+
+    display: block;
+    
 }
 
 .olecia {
