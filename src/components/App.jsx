@@ -1,5 +1,5 @@
+// import Form from "./Form/Form";
 import ListOfAlbumsn from "./ListOfAlbums/ListOfAlbums";
-
 export const App = () => {
   return (
     <div
@@ -12,6 +12,7 @@ export const App = () => {
       }}
     >
       <ListOfAlbumsn/>
+      {/* <Form/> */}
     </div>
   );
 };

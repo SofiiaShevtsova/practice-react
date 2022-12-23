@@ -1,51 +1,46 @@
-import { Component } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { listOfAlbums } from 'service/listOfAlbums';
 
-class ListOfAlbumsn extends Component {
-  state = {
-    list: [],
-    quantityOfItems: 3,
-  };
+const ListOfAlbumsn = () => {
 
-  getAlbum = async () => {
+  const [list, setList] = useState([])
+  const [quantity, setQuantity] = useState(3)
+
+  const listNumber = useMemo(()=>{return list.length}, [list]) ;
+
+  const getAlbum = useCallback(async () => {
     await listOfAlbums().then(array => {
-      const listNumber = this.state.list.length;
-      const arrayForList = array.slice(listNumber, listNumber + this.state.quantityOfItems);
-      this.setState(prevState => ({
-        list: [...prevState.list, ...arrayForList],
-      }));
+             const arrayForList = array.slice(listNumber, listNumber + quantity)
+      setList(prevList => [...prevList, ...arrayForList]);
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [quantity])
+
+  useEffect(() => {
+    getAlbum()
+  }, [getAlbum])
+
+
+
+  const getNumberQuantity = event => {
+    setQuantity(Number(event.target.value));
   };
 
-  getNumberQuantity = event => {
-    this.setState({
-      quantityOfItems: Number(event.target.value),
-    });
-  };
-
-  render() {
     return (
       <>
         <div>
-          {' '}
-          <button type="button" onClick={this.getAlbum}>
-            {' '}
-            Get more{' '}
-          </button>
-          <SelectQuantity onChange={this.getNumberQuantity} />
+          <SelectQuantity onChange={getNumberQuantity} />
         </div>
         <div>
-          {' '}
-          <ul>
-            {this.state.list.map(elem => (
+          <ol>
+            {list.map(elem => (
               <ListItem title={elem.title} key={elem.id} />
             ))}
-          </ul>
+          </ol>
         </div>
       </>
     );
   }
-}
 
 const ListItem = props => {
   const { title, id } = props;
