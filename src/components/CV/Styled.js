@@ -13,10 +13,27 @@ const StyledList = {
         display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 30px 20px;
+    padding: 30px 30px;
     width: 40%;
         background-color: #055017;
+        color:#fff;
     `,
+
+    SiteBarTitleStyle: styled.h3`
+        font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+`,
+    
+    SiteBarListStyle: styled.ul`
+        display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    `,
+
     AvatarStyle: styled.img`
     width: 85%;
     display: block;
@@ -29,7 +46,7 @@ const StyledList = {
             display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 50px 30px;
+    padding: 30px 30px;
     width: 60%;
     color: #05421c;
     `,
@@ -48,8 +65,7 @@ const StyledList = {
     `,
 
     AboutMeStyle: styled.p`
-    font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     `,
     SloganStyle: styled.span`
         display: block;

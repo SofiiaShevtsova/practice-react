@@ -4,7 +4,7 @@ const Experience = props => {
             <h3 className="spravy"> Experience </h3>
             <div>
               <h4 className="pos">
-                Inspector for monitoring the application of administrative practice <span className="compani">National Police of Ukraine</span>{' '}
+                Inspector for monitoring the application of adminpractice <span className="compani">National Police of Ukraine</span>{' '}
               </h4>
               <p className="time">
                 from 2011 to 2020 <span className="ukr">|</span>Ukraine
