@@ -12,7 +12,7 @@ const StyledList = {
     SiteBarStyle: styled.div`
         display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     padding: 30px 30px;
     width: 40%;
         background-color: #055017;
@@ -31,6 +31,20 @@ const StyledList = {
         display: flex;
     flex-direction: column;
     gap: 5px;
+        font-size: 18px;
+    `,
+
+    SvgStyle: styled.svg`
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+fill: #fff;
+    `,
+
+    ContactsStyle: styled.a`
+    color: #fff;
+text-decoration: none;
 
     `,
 
