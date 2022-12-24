@@ -224,12 +224,18 @@ box-shadow: 8px 8px 24px 0px rgb(79, 212, 85);}
 
 .left-tex1 {
     margin-bottom: 50px;
+    list-style: disc;
+
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+
 }
 
 .left-tex2 {
     margin-bottom: 45px;
-color: #fff;
-text-decoration: none;
+color: rgb(8, 54, 18);
+text-decoration: underline;
 }
 
 

@@ -1,22 +1,35 @@
+import StyledList from './Styled';
+
+const {
+  MainTitleStyle,
+  ListStyle,
+  EducationItem,
+  EducationSpecifik,
+  EducationTime,
+} = StyledList;
+
 const Education = props => {
-    return (
-                  <div className="four">
-            <h3 className="spravy">Education</h3>
-            <p className="zakl2">
-              Kherson Law Institute of KhNUVS</p>
-              <p className="spc">Science of Law</p>
-              <p className="time">
-                from 2007 to 2011 <span className="ukr">|</span>Ukraine
-            </p>
-            <p className="zakl2">
-              Academy GO IT              </p><p className="spc">Full Stack Developer</p>
+  return (
+    <div className="four">
+      <MainTitleStyle>Education</MainTitleStyle>
+      <ListStyle>
+        <EducationItem>
+          Kherson Law Institute of KhNUVS
+          <EducationSpecifik>Science of Law</EducationSpecifik>
+          <EducationTime>
+            from 2007 to 2011 <span>|</span>Ukraine
+          </EducationTime>
+        </EducationItem>
+        <EducationItem>
+          Academy GO IT
+          <EducationSpecifik>Full Stack Developer</EducationSpecifik>
+          <EducationTime>
+            from 2022 <span>|</span>Ukraine
+          </EducationTime>
+        </EducationItem>
+      </ListStyle>
+    </div>
+  );
+};
 
-              <p className="time">
-                from 2022 <span className="ukr">|</span>Ukraine
-            </p>
-          </div>
-
-    )
-}
-
-export default Education
+export default Education;

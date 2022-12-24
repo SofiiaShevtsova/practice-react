@@ -27,11 +27,13 @@ const StyledList = {
     margin-left: 20px;
 `,
     
-    SiteBarListStyle: styled.ul`
+    ListStyle: styled.ul`
         display: flex;
     flex-direction: column;
     gap: 5px;
         font-size: 18px;
+            list-style: none;
+
     `,
 
     SvgStyle: styled.svg`
@@ -60,7 +62,7 @@ text-decoration: none;
             display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 30px 30px;
+    padding: 30px 40px;
     width: 60%;
     color: #05421c;
     `,
@@ -80,11 +82,78 @@ text-decoration: none;
 
     AboutMeStyle: styled.p`
     font-size: 22px;
+margin-bottom: 45px;
     `,
     SloganStyle: styled.span`
         display: block;
             margin-bottom: 5px;
     `,
+
+    MainTitleStyle: styled.h3`
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    `,
+
+    EducationItem: styled.li`
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 5px solid rgb(8, 54, 18);
+    `,
+    EducationSpecifik: styled.p`
+        font-weight: 400;
+    font-size: 20px;
+text-decoration: underline;
+    margin-bottom: 10px;
+    `,
+        EducationTime: styled.p`
+    font-weight: 500;
+    font-size: 18px;
+    `,
+        
+    WorksBox: styled.div`
+        display: flex;
+    flex-direction: column;
+    gap: 20px;
+    `,
+
+    WorkName: styled.h4`
+        font-weight: 700;
+    font-size: 20px;
+    `,
+
+    WorkListStyle: styled.ul`
+            display: flex;
+    flex-direction: column;
+    gap: 5px;
+        font-size: 18px;
+    list-style: disc;
+        margin-top: 10px;
+list-style-position: inside;
+    `,
+        
+    ProjectListStyle: styled.ol`
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-position: inside;
+    `,
+
+    LinkProjectStyle: styled.a`
+        font-weight: 700;
+    font-size: 20px;
+        text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    `,
+
+    TextProjectStyle: styled.p`
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 5px;`,
+
 }
 
 export default StyledList;

@@ -1,6 +1,6 @@
 import StyledList from "./Styled"
 
-const{SiteBarTitleStyle, SiteBarListStyle} = StyledList
+const{SiteBarTitleStyle, ListStyle} = StyledList
 
 const Skills = props => {
 const listTech =  ["HTML5/CSS3/SASS","Responsive/Adaptive design GIT","JavaScript","React","Redux","REST API","Handlebars","Webpack","Parcel"]
@@ -10,17 +10,17 @@ const listLang = ["Ukrainian - Native language", "English - Limited working prof
   return (
          <>
             <div><SiteBarTitleStyle>Tech skills</SiteBarTitleStyle>
-        <SiteBarListStyle>
-          {listTech.map((elem) => (<li>{elem}</li>))}
-        </SiteBarListStyle></div>
+        <ListStyle>
+          {listTech.map((elem) => (<li key={elem}>{elem}</li>))}
+        </ListStyle></div>
         <div><SiteBarTitleStyle>Soft skills</SiteBarTitleStyle>
-                <SiteBarListStyle>
-          {listSoft.map((elem) => (<li>{elem}</li>))}
-          </SiteBarListStyle></div>
+                <ListStyle>
+          {listSoft.map((elem) => (<li key={elem}>{elem}</li>))}
+          </ListStyle></div>
                 <div><SiteBarTitleStyle>Language</SiteBarTitleStyle>
-                <SiteBarListStyle>
-          {listLang.map((elem) => (<li>{elem}</li>))}
-        </SiteBarListStyle></div>
+                <ListStyle>
+          {listLang.map((elem) => (<li key={elem}>{elem}</li>))}
+        </ListStyle></div>
 
 
           </>
