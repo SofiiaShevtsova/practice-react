@@ -1,0 +1,277 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #055017;
+
+
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+box-shadow: 8px 8px 24px 0px rgb(79, 212, 85);}
+
+/* left styles */
+.left {
+    display: flex;
+    flex-direction: row-reverse;
+
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* user styles */
+
+.user {
+    background-color: #fff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 60px 90px;
+}
+
+.first {
+    margin-bottom: 100px;
+}
+
+.pos {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.inform {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+}
+
+
+
+
+/* second styles */
+.second {
+    margin-bottom: 50px;
+}
+
+/* spravy styles */
+
+.spravy {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+
+}
+
+.sps-nom {
+    padding: 0;
+    margin-left: 15px;
+
+}
+
+.sps-spr {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.sps-spr1 {
+    margin-left: 10px;
+}
+
+.sps-spr2,
+.sps-spr1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.sps-spr3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* three styles */
+.three {
+    margin-bottom: 45px;
+
+}
+
+.pos {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.compani {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.time {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+
+.ukr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.sps-work {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding: 0%;
+    margin-left: 20px;
+}
+
+.work1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+/* four styles */
+.four {}
+
+.zakl1,
+.zakl2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FB6D3A;
+}
+
+.spc {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+/* photo styles */
+.photo {
+    width: 370px;
+    background-color: #05421c;
+    padding-top: 40px;
+    color: beige;
+
+    display: block;
+    
+}
+
+.olecia {
+    width: 370px;
+    margin-bottom: 50px;
+}
+
+.big {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.left-tex1,
+.left-tex2,
+.left-tex3 {
+    margin-left: 40px;
+}
+
+.left-tex1 {
+    margin-bottom: 50px;
+    list-style: disc;
+
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+
+}
+
+.left-tex2 {
+    margin-bottom: 45px;
+color: rgb(8, 54, 18);
+text-decoration: underline;
+}
+
+
+.contakt {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.tel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565eda;
+}
+
+.sps1,
+.sps2 {
+    color: #FFFFFF;
+    padding: 0;
+    margin-left: 25px;
+
+}
+
+.li-col {
+    color: #fb6d3a;
+}
+
+.skill-col {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}

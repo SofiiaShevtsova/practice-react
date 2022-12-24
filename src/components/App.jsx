@@ -1,17 +1,16 @@
-import ListOfAlbumsn from "./ListOfAlbums/ListOfAlbums";
+import Resume from "./CV/CV";
 
 export const App = () => {
   return (
     <div
       style={{
-        height: '100%',
-        display: 'flex',
-        flexDirection: `column`,
+        display: 'block',
         alignItems: `center`,
-        color: '#010101',
+        backgroundColor: `bisque`,
+        color: 'black',
       }}
     >
-      <ListOfAlbumsn/>
+      <Resume/>
     </div>
   );
 };
